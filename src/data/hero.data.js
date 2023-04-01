@@ -12,4 +12,16 @@ const PASSIVE_DATA = [
   },
 ];
 
+export const CARD_DATA = [
+  {
+    title: 'CloneX #12497',
+    subtitle: 'Current price',
+    images: [
+      '/assets/card1.svg',
+      '/assets/card2.svg',
+      '/assets/card3.svg'
+    ]
+  }
+]
+
 export default PASSIVE_DATA;

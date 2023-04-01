@@ -3,7 +3,7 @@ import HeroBg from "./hero-bg";
 
 function Hero () {
     return (
-        <section className="flex flex-row">
+        <section className="flex">
             <HeroBg />
         </section>
     )

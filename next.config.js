@@ -12,7 +12,7 @@ const nextConfig = {
     appDir: true,
   },
 	devIndicators: {
-    buildActivity: false,
+    buildActivity: true,
   },
 }
 

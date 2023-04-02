@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="w-full px-1">
       <div className="flex justify-between py-6 px-4">
-        <div className="logo flex flex-row gap-3">
+        <div className="logo flex flex-row gap-3 relative bottom-4 lg:bottom-0">
           <Image
             src="/assets/Arete.svg"
             width={20}

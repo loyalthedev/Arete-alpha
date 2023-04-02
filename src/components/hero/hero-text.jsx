@@ -2,7 +2,7 @@ import PASSIVE_DATA from '@/data/hero.data';
 
 export default function HeroText() {
   return (
-    <section className="mx-[87px] relative bottom-5 p-8 rounded-bl-2xl border-b-[1.5px] border-l-[1.5px]">
+    <section className="mx-[87px] relative bottom-10 p-8 rounded-bl-2xl border-b-[1.5px] border-l-[1.5px]">
       <div className="flex gap-2 mt-10">
         {PASSIVE_DATA.map((item) => (
           <p className="text-pri text-xl uppercase">{item.title}</p>

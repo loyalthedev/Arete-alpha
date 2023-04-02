@@ -23,7 +23,7 @@ function Header() {
                 <li key={item.title} className={`text-grey text-2xl uppercase px-4 py-3 hidden md:flex ${index === 0 ? "rounded-lg bg-[#191919] text-white" : ""}`}>{item.title}</li>
             ))}
           </ul>
-          <Image src='/assets/menu.svg' width={24} height={24} className='flex lg:hidden' />
+          <Image src='/assets/menu.svg' width={24} height={24} className='flex lg:hidden' alt='hamburger menu' />
         </div>
       </div>
     </header>

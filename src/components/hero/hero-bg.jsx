@@ -16,7 +16,7 @@ export default function HeroBg() {
                     <HeroText />
                 </div>
             </div>
-            <div className="left-div absolute top-[6%] left-12 lg:right-0 border-b-[1px] border-dashed pb-24">
+            <div className="left-div absolute top-[6%] right-5 lg:right-0 border-none lg:border-b-[1px] lg:border-dashed pb-24">
                 <div className="hero-cards flex">
                     <h1 className="text-white text-[8rem] font-normal hidden lg:flex justify-end uppercase w-full">Arete</h1>
                 </div>

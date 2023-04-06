@@ -4,7 +4,7 @@ import TextMobile from "./text-mobile";
 
 function HeroCard () {
     return (
-        <section>
+        <section className="">
             <div className="hidden lg:flex">
                 <Cards />
             </div>

@@ -20,7 +20,7 @@ export default function TextMobile() {
           className="relative bottom-0 right-10"
         />
       </div>
-      <p className="text-grey text-xl max-w-xs ml-28">Holders will get - Monthly passive income from the Arete Alpha web3 education brand.</p>
+      <p className="text-grey text-xl max-w-xs ml-24">Holders will get - Monthly passive income from the Arete Alpha web3 education brand.</p>
     </div>
   );
 }

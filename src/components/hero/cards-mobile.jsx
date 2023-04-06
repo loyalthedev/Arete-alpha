@@ -23,14 +23,14 @@ export default function CardsMobile() {
             className="mx-auto"
           />
           <p className="text-white text-2xl uppercase my-3">{item.title}</p>
-          <div className="flex gap-3">
+          <div className="flex justify-between gap-3">
             <div className="price">
-              <p className="text-grey text-xl">{item.subtitle}</p>
-              <p className="text-white text-2xl">{item.price}</p>
+              <p className="text-grey text-base">{item.subtitle}</p>
+              <p className="text-white text-xl">{item.price}</p>
             </div>
             <div className="time flex flex-col gap-1">
-              <p className="text-white text-2xl">{item.digital}</p>
-              <p className="text-grey text-lg relative bottom-1">{item.time}</p>
+              <p className="text-white text-xl">{item.digital}</p>
+              <p className="text-grey text-base relative bottom-2">{item.time}</p>
             </div>
           </div>
         </div>

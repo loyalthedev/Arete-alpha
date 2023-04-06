@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-    font-family: 'NBArchitekt';
-    src: url('/public/fonts/NBArchitektStdNeue-Regular.otf') format('opentype');
+@font-face {
+  font-family: NBArchitekt;
+  font-weight: 400;
+
+  src: url('/fonts/NBArchitektStdNeue-Regular.otf') format('opentype');
 }
 
-body {
-    font-family: 'NBArchitekt', sans-serif;
-  } */
+* {
+  font-family: 'NBArchitekt', sans-serif;
+}

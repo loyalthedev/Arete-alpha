@@ -12,4 +12,6 @@ const PASSIVE_DATA = [
   },
 ];
 
+export const HERO_CARD_CONTENT = "Holders will get - Monthly passive income from the Arete Alpha web3 education brand.";
+
 export default PASSIVE_DATA;

@@ -4,7 +4,7 @@ import './cards.style.css';
 
 export default function CardsMobile() {
   return (
-    <section className="flex flex-wrap justify-center relative mx-auto bg-red-500 h-[16rem] top-5">
+    <section className="flex flex-wrap justify-center relative mx-auto h-[16rem] top-5">
       {/* <Image src='/assets/linear-globe.svg' width={100} height={100} alt='linear Globe' className='relative top-56 left-36' /> */}
       {CARD_DATA.map((item, index) => (
         <div

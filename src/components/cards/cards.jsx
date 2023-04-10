@@ -9,7 +9,7 @@ export default function Cards() {
         width={100}
         height={100}
         alt="linear Globe"
-        className="relative top-56 left-40"
+        className="relative top-[17rem] left-44"
       />
       {CARD_DATA.map((item, index) => (
         <div

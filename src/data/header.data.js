@@ -13,4 +13,19 @@ const NAV_LINKS = [
     },
 ]
 
+export const SIDE_LINKS = [
+    {
+        title: 'twitter'
+    },
+    {
+        title: 'instagram'
+    },
+    {
+        title: 'discord'
+    },
+    {
+        title: 'slack'
+    },
+]
+
 export default NAV_LINKS;

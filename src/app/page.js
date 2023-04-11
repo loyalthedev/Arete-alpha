@@ -8,12 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="bg-black h-[100vh] flex overflow-hidden">
+    <main className="bg-black h-[100vh] flex overflow-hidden ">
       <Header />
       <Hero />
-      {/* <div>
-        <Image width={600} height={300} alt="Bg Boxes" src="/assets/boxes.svg" />
-      </div> */}
     </main>
   )
 }

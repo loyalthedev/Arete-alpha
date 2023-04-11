@@ -1,6 +1,7 @@
 .cube {
   /* transform: scaleX(1) scaleY(1) scaleZ(1) rotateX(10deg) rotateY(5deg) rotateZ(-28deg) translateX(0px) translateY(0px) translateZ(0px) skewX(-4deg) skewY(0deg); */
-  transform: skew(16deg, -27deg);
+  transform: skewY(-15deg);
+  scale: 0.65;
 }
 .cube-wrap {
   perspective: 1000px;

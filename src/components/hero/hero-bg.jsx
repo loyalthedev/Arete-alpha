@@ -36,6 +36,7 @@ export default function HeroBg() {
         education brand. 60% of the education brand profits will be airdropped
         to the 497 holders every <br /> month.' />
       </main>
+      {/* Cards */}
       <aside className="left-div absolute bottom-10 right-5 lg:right-0 py-12 lg:overflow-y-hidden">
         <section className="hero-cards flex">
           <h2 className="text-white text-[8rem] font-normal hidden lg:flex justify-end uppercase w-full">

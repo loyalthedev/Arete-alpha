@@ -1,9 +1,17 @@
 .cube {
   /* transform: scaleX(1) scaleY(1) scaleZ(1) rotateX(10deg) rotateY(5deg) rotateZ(-28deg) translateX(0px) translateY(0px) translateZ(0px) skewX(-4deg) skewY(0deg); */
-  transform: skewY(-15deg);
+  /* transform: skewY(-15deg); */
+  transform: skewX(-17deg);
   scale: 0.65;
 }
 .cube-wrap {
   perspective: 1000px;
   perspective-origin: 50% 50%;
+}
+
+.number {
+  @apply text-white text-2xl
+}
+.words {
+  @apply text-grey text-xs
 }

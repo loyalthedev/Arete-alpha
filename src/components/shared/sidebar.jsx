@@ -2,7 +2,7 @@ import { SIDE_LINKS } from "@/data/header.data";
 
 function Sidebar({ links }) {
     return (
-        <section className="rotate-[-90deg] w-20">
+        <section className="rotate-[-90deg] w-20 z-[999999999999]">
             <ul className="flex-row gap-1 hidden lg:flex">
             {links.map((item, index) => (
               <li

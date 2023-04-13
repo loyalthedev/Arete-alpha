@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Cards() {
   return (
-    <section className="my-8 flex flex-col lg:flex-row relative scale-90">
+    <section className="my-8 flex flex-col lg:flex-row relative left-14 scale-90">
       <Image
         src="/assets/linear-globe.svg"
         width={100}
@@ -21,9 +21,9 @@ export default function Cards() {
           <Image
             src={item.image}
             alt="Display Image"
-            width={370}
-            height={370}
-            className='mx-auto'
+            width={340}
+            height={340}
+            className="mx-auto"
           />
           <p className="text-white text-2xl uppercase my-3">{item.title}</p>
           <div className="flex justify-between gap-3">
@@ -31,9 +31,19 @@ export default function Cards() {
               <p className="text-grey text-base">{item.subtitle}</p>
               <p className="text-white text-xl">{item.price}</p>
             </div>
-            <div className="time flex flex-col gap-1">
-              <p className="text-white text-xl">{item.digital}</p>
-              <p className="text-grey text-base relative bottom-2">{item.time}</p>
+            <div className="time flex gap-1">
+              <div className="flex flex-col gap-1">
+                <p className="number">02: </p>
+                <p className="words">HOURS</p>
+              </div>
+              <div className="flex flex-col gap-1">
+                <p className="number">17: </p>
+                <p className="words">MINUTES</p>
+              </div>
+              <div className="flex flex-col gap-1">
+                <p className="number">26</p>
+                <p className="words">SECONDS</p>
+              </div>
             </div>
           </div>
         </div>

@@ -4,8 +4,6 @@ const CARD_DATA = [
       title: 'Clonex #12497',
       subtitle: 'Current price',
       price: '7.20ETH',
-      digital: '02  : 17 : 26',
-      time: 'hours minutes seconds',
       image: '/assets/card1.svg',
     },
     {
@@ -13,8 +11,6 @@ const CARD_DATA = [
       title: 'Clonex #12497',
       subtitle: 'Current price',
       price: '7.20ETH',
-      digital: '02  : 17 : 26',
-      time: 'hours minutes seconds',
       image: '/assets/card2.svg',
     },
     {
@@ -22,8 +18,6 @@ const CARD_DATA = [
       title: 'Clonex #12497',
       subtitle: 'Current price',
       price: '7.20ETH',
-      digital: '02  : 17 : 26',
-      time: 'hours minutes seconds',
       image: '/assets/card3.svg',
     },
   ]

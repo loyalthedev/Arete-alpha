@@ -4,14 +4,14 @@ import './cards.style.css';
 
 export default function CardsMobile() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center ">
       <section className="flex flex-wrap justify-center relative bottom-56 mx-auto h-[16rem]">
         {CARD_DATA.map((item, index) => (
           <div
             className={`bg-black border-[1px] border-white border-opacity-10 rounded-[15px] p-4 relative cube ${
-              index == 0 ? 'z-[999] bottom-14' : ''
-            } ${index == 1 ? 'z-[99] bottom-[23rem]' : ''} ${
-              index == 2 ? 'bottom-[43rem]' : ''
+              index == 0 ? 'z-[999] bottom-14 right-12' : ''
+            } ${index == 1 ? 'z-[99] bottom-[23rem] left-4' : ''} ${
+              index == 2 ? 'bottom-[43rem] left-16' : ''
             }`}
             key={item.id}
           >

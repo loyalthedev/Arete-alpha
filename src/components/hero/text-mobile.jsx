@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function TextMobile() {
   return (
-    <div className="relative top-10 overflow-y-hidden">
+    <div className="relative top-10 overflow-y-hidden overflow-x-hidden">
       <h1 className="text-white text-7xl uppercase">Passive</h1>
       <div className="flex">
         <div>
